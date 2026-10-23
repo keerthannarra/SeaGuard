@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "id": "HMI_Bridge_1",
+      "properties": {
+        "alert_prob": 0.1,
+        "vuln": 0.55,
+        "type": "HMI_Bridge"
+      }
+    },
+    {
+      "id": "HMI_Bridge_2",
+      "properties": {
+        "alert_prob": 0.1,
+        "vuln": 0.55,
+        "type": "HMI_Bridge"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "HMI_Bridge_2",
+      "target": "HMI_Bridge_1"
+    }
+  ]
+}
